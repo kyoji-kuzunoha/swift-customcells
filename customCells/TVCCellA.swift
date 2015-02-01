@@ -2,7 +2,7 @@
 //  TVCCellA.swift
 //  customCells
 //
-//  Created by kyoji_kuzunoha on 2015/01/31.
+
 //  Copyright (c) 2015年 kyoji_kuzunoha. All rights reserved.
 //
 
