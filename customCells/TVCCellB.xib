@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TVCCellB" selectionStyle="default" indentationWidth="10" rowHeight="222" id="KGk-i7-Jjw" customClass="TVCCellB" customModule="customCells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qo3-ND-fRt">
+                        <rect key="frame" x="60" y="0.0" width="200" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="7hZ-Wz-66Z"/>
+                            <constraint firstAttribute="height" constant="200" id="dY5-uI-GNl"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qo3-ND-fRt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="EEy-TQ-1eW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qo3-ND-fRt" secondAttribute="bottom" constant="-8.5" id="MSv-Qo-nEl"/>
+                    <constraint firstAttribute="centerX" secondItem="Qo3-ND-fRt" secondAttribute="centerX" id="qEA-AB-hYS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellBImageView" destination="Qo3-ND-fRt" id="URi-09-u8t"/>
+                <outlet property="cellBView" destination="H2p-sc-9uM" id="9rf-Nw-R7A"/>
+            </connections>
+            <point key="canvasLocation" x="405" y="452"/>
+        </tableViewCell>
+    </objects>
+</document>
